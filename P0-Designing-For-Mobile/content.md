@@ -29,33 +29,107 @@ How much players come back to your game. You want to look for specific steps pla
 **Example 1:** 
 You track what % of players who completed the tutorial go on to complete each puzzle in your puzzle game. Your data looks like this:
 
-Puzzle  Completion
-1       90%
-2       87%
-3       85%
-4       84%
-5       40%
-6       39%
-7       36%
-8       36%
-9       35%
-10      35%
+<table>
+  <thead>
+    <th>Puzzle</th>
+    <th>Completion</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>87%</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>85%</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>84%</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>39%</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>36%</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>36%</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>35%</td>
+    </tr>
+  </tbody>
+</table>
 Some % of people will always drop off because they get stuck or get bored. That being said, you conclude that puzzle #5 is too hard. Perhaps you introduced a new mechanic in that puzzle that you didn't explain properly or the solution is just too hard for such an early puzzle. You update the game with an easier puzzle #5 and will continue to tweak puzzle #5 to try and get it to 80%+ completion.
 
 **Example 2:**
 You measure what % of players who start playing on a given day return over the following days. Your data looks like this:
 
-Day Retention %
-1   100%
-2   40%
-3   35%
-4   27%
-5   25%
-6   24%
-7   22%
-8   21%
-9   20%
-10  20%
+<table>
+  <thead>
+    <th>Day</th>
+    <th>Retention %</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>27%</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>24%</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>22%</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>21%</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>20%</td>
+    </tr>
+  </tbody>
+</table>
 You notice two things. First, you lose 60% of players on your first day. This is, you may be surprised to learn, in line with industry averages. Second, you lose 1/3 of your remaining players from day 2-4, and then things seem to stabilize. You decide to schedule a push notification to go out to players on their fourth day to remind them to come back and play. This has had a measurable impact on retention % when we've done it and in fact is a feature automatically included in the mgwuSDK.
 
 ##Monetization##
